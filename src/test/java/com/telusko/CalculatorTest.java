@@ -31,4 +31,10 @@ public class CalculatorTest {
         int actual=6;
         assertEquals(expected, actual,"It didn't met the expectations");
     }
+
+    @Test
+    void testSubtraction(){
+      
+        assertEquals(1 , c.sub(7, 6),  ()->"Test case failed");
+    }
 }
