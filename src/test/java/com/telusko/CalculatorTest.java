@@ -24,4 +24,11 @@ public class CalculatorTest {
         ()-> c.div(2, 0)
         );
     }
+
+    @Test
+    void testmultiplication(){
+        int expected=c.mul(3, 2);
+        int actual=6;
+        assertEquals(expected, actual,"It didn't met the expectations");
+    }
 }
